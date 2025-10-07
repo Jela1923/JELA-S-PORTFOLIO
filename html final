@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>José Ernesto - Portfolio</title>
+    <style>
+      /* Reset and base styles */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+        line-height: 1.6;
+        background: linear-gradient(180deg, #e6f0ff 0%, #ffffff 100%);
+        color: #222;
+      }
+
+      /* Header */
+      header {
+        background: linear-gradient(135deg, #0078d7, #005ea6);
+        color: white;
+        text-align: center;
+        padding: 60px 20px;
+      }
+
+      .hero h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      .hero p {
+        font-size: 1.1em;
+        opacity: 0.9;
+      }
+
+      /* Navigation */
+      nav {
+        background: #005ea6;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      nav ul {
+        list-style: none;
+      }
+
+      nav ul li {
+        display: inline;
+        margin: 0 15px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s;
+      }
+
+      nav a:hover {
+        color: #ffe47a;
+      }
+
+      /* Main content */
+      main {
+        max-width: 900px;
+        margin: 30px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      section {
+        margin-bottom: 40px;
+      }
+
+      h2 {
+        color: #0078d7;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #0078d7;
+        display: inline-block;
+      }
+
+      p, ul {
+        font-size: 1.05em;
+        margin-top: 10px;
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        background: #0078d7;
+        color: white;
+        padding: 15px 0;
+        font-size: 0.9em;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="hero">
+        <h1>José Ernesto</h1>
+        <p>Student | Entrepreneur | Tech Enthusiast</p>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hi! I’m José Ernesto, a passionate student and young entrepreneur from Bolivia.
+          I love developing ideas that mix creativity and technology to make life easier and more exciting.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li><strong>Albako:</strong> A digital solution connecting builders with employers efficiently.</li>
+          <li><strong>Nómada Coffee:</strong> A brand celebrating Bolivian specialty coffee and culture.</li>
+          <li><strong>Que Nachos:</strong> A healthy snack brand based on protein-rich ingredients.</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Want to get in touch?  
+          Email me at <a href="mailto:jose.ernesto@example.com">jose.ernesto@example.com</a>  
+          or find me on <a href="https://www.linkedin.com">LinkedIn</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2024 José Ernesto. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
